@@ -1,0 +1,95 @@
+{
+  "collected_at": "2026-11-07 05:41:37",
+  "system": {
+    "hostname": "192.168.0.59",
+    "os": "Darwin",
+    "os_version": "Darwin Kernel Version 23.4.0: Wed Feb 21 21:44:54 PST 2024; root:xnu-10063.101.15~2/RELEASE_ARM64_T6030",
+    "architecture": "arm64",
+    "boot_time": "2026-11-07 05:19"
+  },
+  "cpu": {
+    "model": "arm",
+    "physical_cores": 11,
+    "logical_cores": 11,
+    "max_freq_mhz": 4056,
+    "load_percent": 19.7
+  },
+  "memory": {
+    "total_gb": 18.0,
+    "used_percent": 60.8,
+    "available_gb": 7.0
+  },
+  "disks": [
+    {
+      "device": "/dev/disk3s1s1",
+      "mountpoint": "/",
+      "fs": "apfs",
+      "total_gb": 460.4,
+      "used_percent": 3.8
+    },
+    {
+      "device": "/dev/disk3s6",
+      "mountpoint": "/System/Volumes/VM",
+      "fs": "apfs",
+      "total_gb": 460.4,
+      "used_percent": 0.0
+    },
+    {
+      "device": "/dev/disk3s2",
+      "mountpoint": "/System/Volumes/Preboot",
+      "fs": "apfs",
+      "total_gb": 460.4,
+      "used_percent": 2.1
+    },
+    {
+      "device": "/dev/disk3s4",
+      "mountpoint": "/System/Volumes/Update",
+      "fs": "apfs",
+      "total_gb": 460.4,
+      "used_percent": 0.0
+    },
+    {
+      "device": "/dev/disk1s2",
+      "mountpoint": "/System/Volumes/xarts",
+      "fs": "apfs",
+      "total_gb": 0.5,
+      "used_percent": 1.2
+    },
+    {
+      "device": "/dev/disk1s1",
+      "mountpoint": "/System/Volumes/iSCPreboot",
+      "fs": "apfs",
+      "total_gb": 0.5,
+      "used_percent": 1.3
+    },
+    {
+      "device": "/dev/disk1s3",
+      "mountpoint": "/System/Volumes/Hardware",
+      "fs": "apfs",
+      "total_gb": 0.5,
+      "used_percent": 0.7
+    },
+    {
+      "device": "/dev/disk3s5",
+      "mountpoint": "/System/Volumes/Data",
+      "fs": "apfs",
+      "total_gb": 460.4,
+      "used_percent": 45.8
+    }
+  ],
+  "network": {
+    "lo0": {
+      "ipv4": "127.0.0.1",
+      "netmask": "255.0.0.0",
+      "mac": null
+    },
+    "en0": {
+      "ipv4": "192.168.0.59",
+      "netmask": "255.255.255.0",
+      "mac": "80:a9:97:41:9c:48"
+    }
+  },
+  "recommendations": [
+    "Подходит для одновременной работы нескольких VM"
+  ]
+}
